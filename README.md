@@ -35,10 +35,22 @@ DB_HOST=db
 DB_PORT=3306
 DB_NAME=jwt_upskill
 DB_USERNAME=springuser
-DB_PASSWORD=2930
-JWT_SECRET=랜덤시크릿키
+DB_PASSWORD=PW
+JWT_SECRET=랜덤시크릿
 
 # 2. 빌드 & 실행
 docker-compose up -d --build
+5. 배포 상태
+목표: HTTPS 배포 (Caddy/Nginx + Certbot)
 
-미완성 사유: MySQL 컨테이너 재생성 버그 발생 → 배포 마무리 실패
+진행: EC2, Docker, GitHub Actions 설정 완료
+
+미완성 사유: Compose v1 환경에서 MySQL 컨테이너 재생성 버그 발생 → 배포 마무리 실패
+
+향후 계획:
+
+EC2에 Docker Compose v2 설치
+
+MySQL healthcheck 적용
+
+최종 HTTPS 연결 및 테스트
