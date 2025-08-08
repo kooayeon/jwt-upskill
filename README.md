@@ -16,7 +16,7 @@
 - **프레임워크**: Spring Boot 3.2, Spring Security, Spring Data JPA
 - **DB**: MySQL 8.0
 - **인프라**: Docker, Docker Compose, AWS EC2, GitHub Actions
-- **기타 라이브러리**: jjwt, OAuth2 Client, Lombok
+- **기타 라이브러리**: jjwt, Lombok
 
 ## 3. 기능 요약
 | Method | Endpoint     | 설명 |
