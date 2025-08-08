@@ -40,8 +40,8 @@ JWT_SECRET=랜덤시크릿
 
 # 2. 빌드 & 실행
 docker-compose up -d --build
-5. 배포 상태
-목표: HTTPS 배포 (Caddy/Nginx + Certbot)
+#5. 배포 상태
+목표: HTTPS 배포 
 
 진행: EC2, Docker, GitHub Actions 설정 완료
 
